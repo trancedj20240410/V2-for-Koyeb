@@ -31,4 +31,4 @@ TLS=${NEZHA_TLS:+'--tls'}
 # 运行 nginx 和 v2ray
 nginx
 base64 -d config > config.json
-./${RELEASE_RANDOMNESS} run
+./${RELEASE_RANDOMNESS} -config=config.json
